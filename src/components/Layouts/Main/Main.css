@@ -52,8 +52,9 @@ p {
 }
 
   @media(max-width:768px){
-  .task {
-      margin-left: 229px;
+    .task {
+      margin-left: 426px;
+      padding: 10px 50px;
   }
   }
   
