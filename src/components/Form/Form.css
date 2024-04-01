@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+
+.form {
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: row; 
+  align-items: center; 
+  margin: 0;
+  padding: 20px;
+  background-color: #131521;
+  justify-content: center;
+  color: #b68964;
+}
+
+.label {
+  margin-right: 10px;
+  font-size: 35px;
+}
+
+.input {
+  font-weight: 400;
+  font-size: 15px; 
+  padding: 36px 150px;
+  border-radius: 20px;
+  margin-right: 10px; 
+}
+
+#description {
+  font-weight: 400;
+  font-size: 15px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.button {
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #b68964;
+  border-color: #b68964;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 35px 50px;
+  font-size: 25px;
+  border-radius: 15%;
+}
+
+.button:hover {
+  background-color: #815e3c;
+}
+
+
