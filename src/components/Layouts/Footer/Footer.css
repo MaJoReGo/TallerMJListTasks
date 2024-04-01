@@ -25,5 +25,15 @@ footer {
       width: 158vh;
   }
   }
+  @media(max-width:768px){
+    footer {
+        width: 73vh;
+    }
+  }
+  @media(max-width:480px){
+  footer {
+    width: 77vh;
+}
+  }
   
   
