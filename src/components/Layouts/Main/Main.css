@@ -11,7 +11,7 @@
 
 .task {
   display: flex;
-  background-color: #ffffff;
+  background-color: #4d4848;
   border-radius: 8px;
   padding: 20px;
   margin-bottom: 20px;
@@ -22,10 +22,16 @@
   justify-content: center;
   align-items: center;
 }
-
+h3{
+  color: #b68964;
+}
 h3,
 p {
-  margin: 10px;
+  font-family: "Dokdo", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 10px;
 }
 
 .task h3.completed,
@@ -37,10 +43,10 @@ p {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: #ff0000; /* Rojo por defecto */
+  background-color: #ff0000ab; /* Rojo por defecto */
   margin-right: 10px;
 }
 
 .task .circle.checked {
-  background-color: #00ff00; /* Verde cuando está marcado */
+  background-color: #00ff00a2; /* Verde cuando está marcado */
 }

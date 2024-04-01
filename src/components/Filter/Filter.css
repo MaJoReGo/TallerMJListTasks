@@ -3,18 +3,19 @@
 .Filter-container {
   display: flex;
   flex-direction: row;
-  align-items: center; /* Alinea los elementos verticalmente */
+  align-items: center;
 }
 
-.Filter-container h1 {
+label{
   font-family: "Dokdo", system-ui;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 30px;
   color: #b68964;
-  margin: 10px;
 }
-
 select {
+  font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-size: 30px;
   border: 1px solid #ccc;
   border-radius: 8px;
   color: #743d38;
