@@ -54,4 +54,18 @@
   background-color: #815e3c;
 }
 
-
+  
+  @media(max-width:768px){
+  .form {
+    display: flex;
+      flex-direction: column;
+  }
+  }
+  
+  @media(max-width:480px){
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 330px;
+  }
+  }

@@ -50,3 +50,10 @@ p {
 .task .circle.checked {
   background-color: #00ff00a2; /* Verde cuando está marcado */
 }
+
+  @media(max-width:768px){
+  .task {
+      margin-left: 229px;
+  }
+  }
+  

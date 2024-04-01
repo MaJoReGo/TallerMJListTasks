@@ -25,7 +25,27 @@ header h1{
 }
 
 
-/*header {
+
+@media(max-width:1279px){
+header {
   width: 158vh;
 }
-*/
+
+}
+
+
+@media(max-width:768px){
+header {
+    width: 73vh;
+}
+header h1 {
+    margin: 0;
+}
+
+}
+
+@media(max-width:480px){
+header {
+    width: 77vh;
+}
+}
