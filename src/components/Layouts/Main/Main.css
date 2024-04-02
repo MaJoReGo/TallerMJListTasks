@@ -10,7 +10,6 @@
 }
 
 .task {
-  display: flex;
   background-color: #4d4848;
   border-radius: 8px;
   padding: 20px;
@@ -30,9 +29,52 @@ p {
   font-family: "Dokdo", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 30px;
     margin: 10px;
 }
+.checkbox-container {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.checkbox-container input:checked ~ .checkbox-custom:after {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.checkbox-container:hover .checkbox-custom {
+  background-color: #ccc;
+}
+
+
 
 .task h3.completed,
 .task p.completed {
@@ -57,4 +99,5 @@ p {
       padding: 10px 50px;
   }
   }
+  
   
