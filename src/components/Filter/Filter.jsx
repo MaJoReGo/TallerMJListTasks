@@ -9,7 +9,7 @@ export const Filter = ({ onFilterChange }) => {
 
   return (
     <div className="filter-container">
-      <label htmlFor="filter">Filter:</label>
+      <label className="filter">Filter:</label>
       <select id="filter" onChange={handleChange}>
         <option value="all">Todas las tareas</option>
         <option value="completed">Tareas completadas</option>
