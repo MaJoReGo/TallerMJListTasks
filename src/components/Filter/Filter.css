@@ -1,25 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
 
-.Filter-container {
+.filter-container {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  align-items: center; /* Alinear verticalmente */
 }
 
-label{
+.filter {
   font-family: "Dokdo", system-ui;
   font-weight: 400;
   font-size: 30px;
   color: #b68964;
+  margin-right: 10px; /* Espacio entre el label y el select */
+  margin-left: 250px;
 }
+
 select {
   font-family: "Dokdo", system-ui;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  color: #743d38;
-  padding: 10px;
-  margin: 10px;
-  font-size: 20px;
+  padding: 8px;
+  margin: 8px;
 }
+
+
